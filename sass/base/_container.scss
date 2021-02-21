@@ -1,0 +1,19 @@
+/* container */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .section.feature & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .header & {
+    @extend %align;
+    background: var(--white-color);
+  }
+}

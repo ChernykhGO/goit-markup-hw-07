@@ -1,0 +1,9 @@
+.title {
+  .about-us &,
+  .team &,
+  .clients & {
+    @include font(36px, 700, 1.17);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}

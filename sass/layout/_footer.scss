@@ -1,0 +1,54 @@
+/*Footer*/
+.footer {
+  background: var(--background-hero);
+}
+
+.adds {
+  display: flex;
+  flex-direction: column;
+}
+.container.footer {
+  display: flex;
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.adds .location {
+  color: var(--white-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  margin-bottom: 9px;
+}
+
+.adds .link-adds {
+  color: var(--text-footer-color);
+  @include font($lh: 1.71);
+  font-style: normal;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:focus,
+  &:hover {
+    color: var(--accent-color);
+  }
+}
+
+.link-adds.mail {
+  margin-bottom: 9px;
+}
+
+/* Join */
+.join {
+  margin-left: 70px;
+}
+
+.join-text {
+  color: var(--white-color);
+  font-family: Roboto, sans-serif;
+  @include font($fw: 700);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  font-style: normal;
+  margin-bottom: 20px;
+  display: flex;
+}

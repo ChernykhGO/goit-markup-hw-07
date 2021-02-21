@@ -1,0 +1,42 @@
+/*About us*/
+
+.section.about-us {
+  padding-bottom: 94px;
+}
+
+.product.list {
+  display: flex;
+}
+
+.product-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+/* Caption to pictures */
+
+.job {
+  position: relative;
+}
+
+// .product-item
+.job-active {
+  @include font($fw: 700);
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 100%;
+  position: absolute;
+  margin: 0;
+  bottom: 0%;
+  background: rgba(47, 48, 58, 0.8);
+  width: 370px;
+  height: 70px;
+  padding: 27px;
+}
+
+.job-active-text {
+  text-align: center;
+  color: var(--white-color);
+}

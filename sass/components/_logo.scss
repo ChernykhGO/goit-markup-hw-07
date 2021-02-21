@@ -1,0 +1,7 @@
+/*header logo*/
+.logo {
+  color: var(--logo-text-color);
+  font-family: Raleway, sans-serif;
+  @include font(26px, 700, 1.19);
+  margin-right: 93px;
+}
