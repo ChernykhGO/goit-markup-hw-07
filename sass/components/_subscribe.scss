@@ -25,7 +25,7 @@
 }
 
 .footer-form input::placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: $mainFont;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -34,7 +34,7 @@
 
 .subscribe-text {
   color: $whiteColor;
-  font-family: Roboto, sans-serif;
+  font-family: $mainFont;
   @include font($fw: 700);
   letter-spacing: 0.03em;
   text-transform: uppercase;

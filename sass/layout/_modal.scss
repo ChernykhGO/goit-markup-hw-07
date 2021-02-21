@@ -47,7 +47,7 @@
 
 .form-text {
   width: 100%;
-  font-family: Roboto, sans-serif;
+  font-family: $mainFont;
   font-style: normal;
   @include font(20px, 700, 1.15);
   text-align: center;
@@ -56,7 +56,7 @@
 
 .form .label-text {
   margin-bottom: 4px;
-  font-family: Roboto;
+  font-family: $mainFont;
   font-style: normal;
   @include font($fs: 12px, $lh: 1.67);
   letter-spacing: 0.01em;
@@ -107,7 +107,7 @@
 }
 
 .form-field textarea::placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: $mainFont;
   @include font($fs: 12px);
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
@@ -148,7 +148,7 @@
   @extend %align;
   font-style: normal;
   justify-content: center;
-  font-family: Roboto, sans-serif;
+  font-family: $mainFont;
   @include font($lh: 1.71);
   margin-bottom: 30px;
   letter-spacing: 0.03em;

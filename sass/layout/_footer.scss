@@ -44,7 +44,7 @@
 
 .join-text {
   color: $whiteColor;
-  font-family: Roboto, sans-serif;
+  font-family: $mainFont;
   @include font($fw: 700);
   letter-spacing: 0.03em;
   text-transform: uppercase;

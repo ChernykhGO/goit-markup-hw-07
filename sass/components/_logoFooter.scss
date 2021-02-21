@@ -2,7 +2,7 @@
 
 .logo-footer {
   color: $whiteColor;
-  font-family: Raleway, sans-serif;
+  font-family: $secondFont;
   @include font(26px, 700, 1.19);
   letter-spacing: 0.03em;
 

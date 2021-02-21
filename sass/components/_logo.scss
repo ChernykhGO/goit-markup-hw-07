@@ -1,7 +1,7 @@
 /*header logo*/
 .logo {
   color: $logoColor;
-  font-family: Raleway, sans-serif;
+  font-family: $secondFont;
   @include font(26px, 700, 1.19);
   margin-right: 93px;
 }

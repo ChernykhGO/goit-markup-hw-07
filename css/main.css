@@ -25,7 +25,7 @@
 /* base */
 body {
   color: #212121;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
 }
 
@@ -147,7 +147,7 @@ a {
 /*header logo*/
 .logo {
   color: #000000;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
@@ -221,7 +221,7 @@ a {
 /*footer logo*/
 .logo-footer {
   color: #ffffff;
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
@@ -262,7 +262,7 @@ a {
 }
 
 .footer-form input::-webkit-input-placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -270,7 +270,7 @@ a {
 }
 
 .footer-form input:-ms-input-placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -278,7 +278,7 @@ a {
 }
 
 .footer-form input::-ms-input-placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -286,7 +286,7 @@ a {
 }
 
 .footer-form input::placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
@@ -295,7 +295,7 @@ a {
 
 .subscribe-text {
   color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -428,7 +428,7 @@ a {
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
   padding: 63px 24px;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 18px;
   font-weight: 400;
@@ -841,7 +841,7 @@ a {
 
 .join-text {
   color: #ffffff;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -906,7 +906,7 @@ a {
 
 .form-text {
   width: 100%;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 20px;
   font-weight: 700;
@@ -917,7 +917,7 @@ a {
 
 .form .label-text {
   margin-bottom: 4px;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-size: 12px;
   font-weight: 400;
@@ -981,7 +981,7 @@ a {
 }
 
 .form-field textarea::-webkit-input-placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.14;
@@ -990,7 +990,7 @@ a {
 }
 
 .form-field textarea:-ms-input-placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.14;
@@ -999,7 +999,7 @@ a {
 }
 
 .form-field textarea::-ms-input-placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.14;
@@ -1008,7 +1008,7 @@ a {
 }
 
 .form-field textarea::placeholder {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 12px;
   font-weight: 400;
   line-height: 1.14;
@@ -1054,7 +1054,7 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 1.71;
