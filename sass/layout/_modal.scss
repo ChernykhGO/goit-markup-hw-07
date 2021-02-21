@@ -9,7 +9,7 @@
   height: 581px;
   padding: 40px;
   opacity: 1;
-  background: #ffffff;
+  background: $whiteColor;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -27,7 +27,7 @@
   width: 30px;
   height: 30px;
 
-  background: var(--white-color);
+  background: $whiteColor;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
   cursor: pointer;
@@ -60,7 +60,7 @@
   font-style: normal;
   @include font($fs: 12px, $lh: 1.67);
   letter-spacing: 0.01em;
-  color: var(--title-text-color);
+  color: $titleColor;
 }
 
 .form-field {
@@ -82,7 +82,7 @@
 
   .form-input:focus + &,
   .form-input:hover + & {
-    fill: var(--accent-color);
+    fill: $accentColor;
   }
 }
 
@@ -102,7 +102,7 @@
   &:focus,
   &:hover {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: $accentColor;
   }
 }
 
@@ -127,7 +127,7 @@
   &:focus,
   &:hover {
     outline: none;
-    border-color: var(--accent-color);
+    border-color: $accentColor;
   }
 }
 
@@ -152,23 +152,23 @@
   @include font($lh: 1.71);
   margin-bottom: 30px;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $titleColor;
 
   &::before {
     content: ' ';
     width: 16px;
     height: 15px;
-    background-color: var(--primary-text-color);
-    border: 2px solid var(--primary-text-color);
-    background: #ffffff;
+    background-color: $primaryColor;
+    border: 2px solid $primaryColor;
+    background: $whiteColor;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     margin-right: 7px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     .checkbox:checked + & {
-      border-color: var(--accent-color);
-      background-color: var(--accent-color);
+      border-color: $accentColor;
+      background-color: $accentColor;
       background-image: url('../images/checkbox1.svg');
       background-size: contain;
       background-origin: content-box;
@@ -176,13 +176,13 @@
     }
 
     .checkbox:focus + & {
-      outline: 1px solid var(--accent-color);
+      outline: 1px solid $accentColor;
     }
   }
 }
 
 .link-policy {
-  color: var(--accent-color);
+  color: $accentColor;
   text-decoration: underline;
   margin-left: 4px;
 }

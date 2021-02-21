@@ -14,6 +14,6 @@
 
   .header & {
     @extend %align;
-    background: var(--white-color);
+    background: $whiteColor;
   }
 }

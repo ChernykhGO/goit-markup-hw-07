@@ -1,7 +1,7 @@
 /* header  */
 
 .header {
-  border-bottom: 1px solid var(--border-color);
+  border-bottom: 1px solid $borderColor;
 }
 
 .navigation,
@@ -11,7 +11,7 @@
 }
 
 .accent {
-  color: var(--accent-color);
+  color: $accentColor;
 }
 
 .nav-item {
@@ -22,7 +22,7 @@
 
 // .site-nav
 .link.current {
-  color: var(--accent-color);
+  color: $accentColor;
   position: relative;
   &::after {
     display: block;
@@ -32,13 +32,13 @@
     height: 4px;
     left: 0;
     bottom: 0;
-    background: var(--accent-color);
+    background: $accentColor;
     border-radius: 2px;
     margin-bottom: -1px;
   }
 }
 .site-nav .link {
-  color: var(--primary-text-color);
+  color: $primaryColor;
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -48,7 +48,7 @@
 
   &:focus,
   &:hover {
-    color: var(--accent-color);
+    color: $accentColor;
   }
 }
 
@@ -61,7 +61,7 @@
 }
 
 .contact a {
-  color: var(--title-text-color);
+  color: $titleColor;
 }
 
 .link-contact {
@@ -73,7 +73,7 @@
 
   &:focus,
   &:hover {
-    color: var(--accent-color);
+    color: $accentColor;
   }
 }
 

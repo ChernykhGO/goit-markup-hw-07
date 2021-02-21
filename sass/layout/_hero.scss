@@ -1,7 +1,7 @@
 /* Hero */
 .section.hero {
-  color: var(--white-color);
-  background: var(--background-hero);
+  color: $whiteColor;
+  background: $backgroundHero;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -28,13 +28,13 @@
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  color: var(--white-color);
+  color: $whiteColor;
 }
 
 .btn-hero {
   display: inline-block;
-  color: var(--white-color);
-  background-color: var(--accent-color);
+  color: $whiteColor;
+  background-color: $accentColor;
   font-family: inherit;
   @include font(16px, 700, 1.87);
   letter-spacing: 0.06em;
@@ -49,6 +49,6 @@
 
   &:hover,
   &:focus {
-    background-color: var(--btn-form-color);
+    background-color: $btnFormColor;
   }
 }
